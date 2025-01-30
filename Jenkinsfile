@@ -1,4 +1,4 @@
-pipeline{
+pipeline(
     agent any
     stages(
         stage("make directory")(
@@ -12,4 +12,4 @@ pipeline{
             )
         )
     )
-}
+)
